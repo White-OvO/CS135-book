@@ -1,0 +1,51 @@
+// this is chapter 1 reading - cs135
+
+
+
+/*
+
+Vocabulary - 
+Terms
+Program Entry Point - The starting point of program execution, defined as main().
+
+Sequential Execution - The order in which statements are executed, from top to bottom/left to right.
+
+Block of Code - A structured group of statements that execute as a unit.
+
+Semicolon (;) - Marks the end of a statement in C++.
+
+Compiler - A tool that translates source code into machine code.
+
+Preprocessor Directive - Special instructions in a programming language, primarily used in C and C++, that are executed by the preprocessor before the actual compilation of the program begins.
+
+Preprocessor - A tool that processes source code before compilation by handling directives (e.g., #include, #define) for file inclusion, macro substitution, and conditional compilation.
+
+Linker - Combines object files with necessary libraries.
+
+Loader - Loads the compiled program into memory for execution.
+
+
+
+
+ CHP1 Questions : 
+ Questions
+Understanding the Structure of a C++ Program
+What is the entry point of a C++ program, and why is it necessary?
+
+What would happen if a C++ program did not include a main() function?
+
+How does the sequential execution of statements within main() affect program behavior?
+
+Why must each statement in C++ end with a semicolon (;)?
+
+What is the purpose of the return statement in the main() function?
+
+What happens to any code written after the return 0; statement inside main()?
+
+What is a block of code, and how is it represented in C++?
+
+
+
+
+*/
+
