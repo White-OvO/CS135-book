@@ -46,6 +46,44 @@ What is a block of code, and how is it represented in C++?
 
 
 
+Simplifying Code with Namespaces
+What is a namespace, and why is it used in C++?
+
+How does using using namespace std; simplify code?
+
+Compiling and Running a C++ Program
+Why must a C++ program be compiled before execution?
+
+What command is used to compile a C++ program using GCC?
+
+If a C++ source file is named program.cpp, what exact command would you use to compile it?
+
+What happens if there is a syntax error in a C++ program during compilation?
+
+The Compilation Process
+What are the three main stages of the compilation process?
+
+What occurs during the preprocessing stage of compilation?
+
+What is the role of the linker in the compilation process?
+
+Why is linking necessary when compiling a C++ program?
+
+What is an executable file, and what is its default name when compiled using GCC?
+
+What does the compiler generate after a successful compilation of a C++ program?
+
+Executing the Compiled Program
+What is the role of the loader in executing a compiled program?
+
+What command is used to execute a compiled C++ program on a Linux terminal?
+
+If a program was compiled using the command g++ myfile.cpp -o myprogram, how would you execute it?
+
+Summary
+What are the three main steps to writing and executing a C++ program?
+
+
 
 */
 
