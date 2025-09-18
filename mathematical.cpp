@@ -108,31 +108,72 @@ cout<<"\n\n cos(x) - Cosine of x (x is in radians)" << std::endl;
 cout <<" \n\n tan(x) - Tangent of x (x is in radians)" << std::endl; 
 
 
+// convert a value from degrees to radians 
+// radians = degrees * pie / 180    // formula for converting degrees from dereess to radians
+// Thus to take the sin cos and tan of an angle 60 in degrees:
+
+ 
 
 
+const double pi3 = 3.14 ; 
+double degressPI3  = 60 ; 
+double radianspie3 = degressPI3 * pi3 / 180 ; 
+
+//cout<< "\n\n \t  double PI = " << pi3 << std::endl; // output is 3.14
+//cout<< "\n\n \t degress is : "<< degressPI3 << std::endl; // output is 60
+//cout << " \t radians is : " << radianspie3 << std::endl; // output is 1.04666
+double CalulateSin = sin(radianspie3); // CalculateSin is 0.866025
+cout << "\n\n \t sin(60) is : " << CalulateSin << std::endl;
+
+double calulateCos = cos(radianspie3); // calulateCos is 0.5
+cout << "\n\n \t cos(60) is : " << calulateCos <<std::endl;
+
+
+double caluclateTan = tan(radianspie3); // caluculateTan is 1.73205
+cout << "\n\n \t tan(60) is : " << caluclateTan << std::endl; // prints out the tan of 60 
+
+
+/* 
+an observer is standing on the ground some feet away
+ from an object and they calculate the angle from the
+  ground where they stand to the top of the object,
+   they can calculate the height of the object with:
+    height = distance * tan(angle)*/ 
+cout << " \n\n\t The trigonometric functions can be combined with arithmetic to form complex expressions. " << std::endl; 
+
+//Where distance is how many feet the observer is from the object and angle is the angle from the ground where the observer is to the top of the object. 
+//Example 
+
+//calculate the height of an object 30 feet away at an angle of 60° to the top of the object:
+//calculate thr hrigh of an object 30 feet awat at an angle of 60 degreeto the top of the object 
+
+const double piDistanceToObject = 3.14; 
+double distanceToObject = 30 , degressDistanceToObject = 60;
+
+double radiansForObjectDistance = degressDistanceToObject * piDistanceToObject / 180; 
+
+double heightOfObject = distanceToObject * tan(radiansForObjectDistance); // heightOfObject is 51.9615
+
+
+// the distance from the ground where the observer is standing to the top of 
+// the object to the top of the object ( called the hypotenuse in a right triangle ) is :
+// hypotenuse = distance / cos(angle) 
+
+
+cout << "\n\n \t height of the object is : " << heightOfObject << std::endl; // output is 51.9615
+
+
+cout<< " \n\n sin(x) - Sine of x (x is in radians) " << std::endl;
+cout<<"\n\n cos(x) - Cosine of x (x is in radians)" << std::endl;
+
+cout <<" \n\n tan(x) - Tangent of x (x is in radians)" << std::endl; 
+
+
+
+cout << " Since values in the unit circle " << std::endl; 
 
 cout<< " \n\n \t\t\tHello World" << std::endl;
 
 return 0;
 }
 
-
-/* 
-
-#include <cmath> 
-#include <iostream>
-
-using namespace std;
-
-int main() {
-    // Calculate 4^(1/2) correctly
-    double result = sqrt(4);  // Or pow(4, 0.5)
-
-    cout << "The result of 4^(1/2) is: " << result << endl;
-    cout << "Hello World" << endl;
-
-    return 0;
-}
-
-
-*/
